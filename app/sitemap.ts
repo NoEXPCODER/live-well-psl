@@ -7,6 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE}/lists`, lastModified: "2026-10-31" },
     ...LISTS.map((l) => ({ url: `${SITE}/lists/${l.slug}`, lastModified: latestChecked(l) })),
     { url: `${SITE}/about`, lastModified: "2026-10-31" },
+    { url: `${SITE}/featured`, lastModified: "2026-10-31" },
     { url: `${SITE}/changelog`, lastModified: "2026-10-31" },
   ];
 }

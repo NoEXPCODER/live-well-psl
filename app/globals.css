@@ -62,3 +62,14 @@ footer a{color:var(--esp)}
 @media(min-width:760px){.cards{grid-template-columns:repeat(3,1fr)}.now{grid-template-columns:repeat(3,1fr)}.entries{grid-template-columns:1fr 1fr}.arch-in{min-height:380px}}
 :focus-visible{outline:3px solid var(--sage-d);outline-offset:2px}
 @media print{nav.top,.chips,.save,footer{display:none}}
+.home-h1{font-size:clamp(20px,4.5vw,26px);font-style:italic;text-align:center;max-width:30ch;margin:16px auto 0;color:var(--muted)}
+.why.clamp{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.more{border:0;background:transparent;font:inherit;font-size:15px;text-decoration:underline;color:var(--sage-d);cursor:pointer;padding:0 0 4px}
+.news{background:var(--sage);border-radius:22px;padding:18px 20px;margin-top:28px}
+.news h3{font-size:24px;margin-bottom:6px}
+.news p{margin:0 0 8px}
+.news .soon{display:inline-block;border:1px dashed var(--sage-d);border-radius:999px;padding:6px 14px;font-size:15px;color:var(--sage-d)}
+.badge{display:inline-flex;flex-direction:column;align-items:center;border:2px solid var(--gold);border-radius:999px 999px 18px 18px;padding:14px 26px 12px;background:var(--ivory);text-decoration:none;text-align:center;font-family:var(--font-head),serif}
+.badge small{font-family:var(--font-body),sans-serif;letter-spacing:.14em;text-transform:uppercase;font-size:11px;color:var(--muted)}
+.badge b{font-size:22px;font-weight:500}
+pre.snip{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;overflow-x:auto;font-size:14px;white-space:pre-wrap;word-break:break-word}

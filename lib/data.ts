@@ -16,8 +16,8 @@ export const TEASERS: Record<string, string> = {
   "healthy-holiday-season-2026": "Turkey Trot at Tradition on Nov 26, plus the 5Ks we could confirm.",
   "parks-trails-outdoor-workouts": "Trails and boardwalks with an official page, hours and fees.",
   "farmers-markets-fresh-local-food": "Where to buy fresh, local food, side by side.",
-  "free-low-cost-fitness-classes": "City passes, park loops and a free weekly group run.",
-  "self-care-and-recovery": "Spa, massage, yoga and a licence check before you book.",
+  "free-low-cost-fitness-classes": "City passes, park loops and a weekly group run.",
+  "self-care-and-recovery": "Spa, massage, yoga and a license check before you book.",
   "healthy-places-to-eat": "Lighter menus, one source and one date each.",
 };
 
@@ -37,6 +37,7 @@ export const NOW = [
 export const NOW_CHECKED = "2026-10-31";
 
 export const CHANGELOG = [
+  { date: "2026-10-31", text: "Corrections after review: Turkey Trot at Tradition youth price (ages 18 and under) is $35, not $30. Our salon entry now shows its real hours and a \"from $35\" pedicure price, and sits after the independent places. Removed Massage Envy St. Lucie West because its cost and hours could not be confirmed on the company page. Added the December Dash note that online registration opens Dec 11." },
   { date: "2026-10-31", text: "Site launched with 6 lists (40 entries from official pages). Race dates, times and prices on the 5K list re-read on 2026-10-31. Turkey Trot at Tradition adult price now shows $45 (the $40 tier ended Oct 26)." },
   { date: "2026-10-27", text: "Research pass. Dropped as unverifiable or possibly closed: Nutrition S'Mart PSL, Clean Eatz Tradition, Dale Arepa Bar, Healthy Spot PSL (relocating), Southern Salt, Berry Fresh Cafe, Hand & Stone, and two 2024-only free classes." },
 ];
