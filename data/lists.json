@@ -1,0 +1,560 @@
+{
+ "lists": [
+  {
+   "slug": "parks-trails-outdoor-workouts",
+   "title": "Parks, trails and outdoor walks in Port St. Lucie",
+   "intro": "Port St. Lucie has city parks, a state preserve and a county nature center with walking trails you can use today. Every place below has an official page that we read on 2026-10-27 for its address, hours or fees.",
+   "faq": [
+    {
+     "q": "Where can I find walking trails in Port St. Lucie?",
+     "a": "The City of Port St. Lucie lists about three miles of walking trails at Oak Hammock Park and a sidewalk trail system at Woodland Trails Park. Savannas Preserve State Park has multi-use trails shared by hikers, bicyclists and horseback riders, and Oxbow Eco-Center & Preserve trails are open sunrise to sunset daily per the county."
+    },
+    {
+     "q": "Is there a fee to hike at Savannas Preserve State Park?",
+     "a": "Florida State Parks lists $3 per vehicle (up to eight people) and $2 per pedestrian, with the park open 8 a.m. to sunset. Fees can change, so check the state's hours-and-fees page before you go."
+    },
+    {
+     "q": "Is there somewhere to walk in the evening?",
+     "a": "The Boardwalk at The Port District is listed by the city as open 24/7 and lighted, about 4,300 feet long. Jessica Clinton Park has a lighted half-mile sidewalk loop and is listed open until 10 p.m. (see the fitness list)."
+    },
+    {
+     "q": "Will the trails be wet?",
+     "a": "Florida State Parks warns that the Savannas trails wind through marsh, so depending on the season and weather they may be wet. Check conditions with the park office before you head out."
+    }
+   ],
+   "entries": [
+    {
+     "name": "Oak Hammock Park",
+     "type": "City park with walking trails",
+     "area": "1982 SW Villanova Rd, Port St. Lucie 34953 (central PSL)",
+     "why": "City page lists about three miles of walking trails through large oak and palm hammocks. Criteria met: official trail length, wooded setting.",
+     "cost": "No fee listed on the city page",
+     "hours": "7 a.m. to sunset (City of Port St. Lucie)",
+     "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/Oak-Hammock-Park",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Savannas Preserve State Park",
+     "type": "State park, multi-use trails",
+     "area": "2541 SE Walton Rd, Port St. Lucie 34952 (Savannas area)",
+     "why": "State page describes nature trails through the Savannas marsh system shared by hikers, bicyclists and horseback riders; trails can be wet by season. Criteria met: official fee and hours, large natural area.",
+     "cost": "$3 per vehicle (up to 8 people); $2 per pedestrian",
+     "hours": "8 a.m. to sunset, 365 days a year (Florida State Parks)",
+     "source": "https://www.floridastateparks.org/parks-and-trails/savannas-preserve-state-park/hours-and-fees",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Oxbow Eco-Center & Preserve",
+     "type": "County nature preserve with hiking trails",
+     "area": "5400 NE St. James Dr, Port St. Lucie 34983 (north PSL)",
+     "why": "County page says preserve trails are open sunrise to sunset daily; a county brochure says there is no charge for the center, exhibits or trails. Criteria met: free, county-run.",
+     "cost": "Free (county brochure)",
+     "hours": "Trails: sunrise to sunset daily. Eco-Center hours differ between county sources, so none are listed here.",
+     "source": "https://www.stlucieco.gov/departments-and-services/oxbow-eco-center/visit-us/about-us",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "The Boardwalk at The Port District",
+     "type": "City boardwalk along the St. Lucie River",
+     "area": "2200 SE Veterans Memorial Pkwy, Port St. Lucie 34952 (The Port District)",
+     "why": "City page: about 4,300 feet, 10 feet wide, lighted, running from Tom Hooper Park to Veterans Park at Rivergate through mangrove wetlands. Criteria met: flat, lighted, open round the clock.",
+     "cost": "No fee listed on the city page",
+     "hours": "Open 24/7 (City of Port St. Lucie)",
+     "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/The-Boardwalk",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "McCarty Ranch Preserve",
+     "type": "City preserve with cleared trails",
+     "area": "12525 Range Line Rd, Port St. Lucie 34987 (west PSL, near Tradition)",
+     "why": "City page: 3,107 acres with cleared trails for walking, biking and horseback riding and a trail map PDF. Criteria met: large open space, official trail map.",
+     "cost": "No day-use fee listed; camping is $20 per night tent, $23 RV, plus tax",
+     "hours": "8 a.m. to sunset (extended hours for paid camping)",
+     "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/McCarty-Ranch-Preserve",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Port St. Lucie Botanical Gardens",
+     "type": "Botanical garden (nonprofit, city-owned site)",
+     "area": "2410 SE Westmoreland Blvd, Port St. Lucie 34952 (The Port District area)",
+     "why": "The gardens' own site lists a pavilion and garden open to the public with a suggested donation instead of a fixed fee. Criteria met: donation-based, shaded garden paths.",
+     "cost": "Suggested donation: adults $5, students and children 12 and under $2; members and active military with ID free",
+     "hours": "Tue-Sat 10 a.m.-4 p.m., Sun noon-4 p.m.; closed Mondays and major holidays (older site pages show different hours, so call (772) 337-1959 to confirm)",
+     "source": "https://www.pslbg.org/",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Woodland Trails Park & Dog Park",
+     "type": "City park with trail and outdoor fitness station",
+     "area": "1485 SW Calmar Ave, Port St. Lucie 34953 (central PSL)",
+     "why": "City page lists a sidewalk trail system, an outdoor fitness station, pavilion, dog park and an autism-friendly designation. Criteria met: trail plus workout equipment in one park.",
+     "cost": "No fee listed on the city page",
+     "hours": "8 a.m. to sunset (City of Port St. Lucie)",
+     "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/Woodland-Trails-Park-Dog-Park",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Stars and Stripes Park",
+     "type": "City park (opened June 2026)",
+     "area": "12441 SW Village Pkwy, Port St. Lucie (Tradition area)",
+     "why": "City news page: 26.5-acre park with green space, ponds and veteran and first-responder art installations, opened June 4, 2026. Criteria met: new, open green space; the city page does not describe trails, so it is listed for a stroll, not a trail workout.",
+     "cost": "No fee listed on the city page",
+     "hours": "Not stated on the city news page",
+     "source": "https://www.cityofpsl.com/News-Stories/2026/Celebrate-Grand-Opening-of-Stars-and-Stripes-Park-at-Tradition",
+     "checked": "2026-10-27"
+    }
+   ],
+   "short": "Parks, trails and outdoor walks in Port St. Lucie"
+  },
+  {
+   "slug": "farmers-markets-fresh-local-food",
+   "title": "Farmers markets and fresh, local food near Port St. Lucie",
+   "intro": "Port St. Lucie's regular Saturday and Sunday markets are in Fort Pierce, Tradition and the MIDFLORIDA Event Center. Market schedules change by season, so each entry below says only what its official or tourism page states.",
+   "faq": [
+    {
+     "q": "Is there a farmers market in Port St. Lucie on Sunday?",
+     "a": "Visit St. Lucie describes the Tradition Neighborhood Market as a Sunday market with fresh produce and handcrafted goods, and lists a Port St. Lucie Green Market at the MIDFLORIDA Event Center on November 15, 2026 from 12 to 6 p.m. Visit St. Lucie's guide does not give regular Sunday hours, so confirm the current schedule with the organizer."
+    },
+    {
+     "q": "Is there a Saturday farmers market near Port St. Lucie?",
+     "a": "The Downtown Fort Pierce Farmers Market runs every Saturday, rain or shine, 8 a.m. to 1 p.m. from October through May and 8 a.m. to noon from June through September, at 101 Melody Lane (Marina Square)."
+    },
+    {
+     "q": "Are the vendors at these markets organic?",
+     "a": "The Fort Pierce market describes its produce as farm-fresh and does not mention organic certification. If organic matters to you, ask each vendor directly."
+    },
+    {
+     "q": "Do the markets run all year?",
+     "a": "The Fort Pierce market states it runs every Saturday, with different hours in summer. Visit St. Lucie's guide does not state a season for the other markets, so check before you travel."
+    }
+   ],
+   "entries": [
+    {
+     "name": "Downtown Fort Pierce Farmers Market",
+     "type": "Weekly outdoor farmers market",
+     "area": "101 Melody Ln (Marina Square), Fort Pierce 34950 (Fort Pierce, about 20 min north of central PSL)",
+     "why": "The market's site lists farm-fresh produce, meats, cheeses, seafood, baked goods, honey, flowers, plants and herbs. Criteria met: weekly, outdoors, fresh-food vendors listed by the organizer.",
+     "cost": "Admission not stated on the market's site",
+     "hours": "Every Saturday, rain or shine: Oct-May 8 a.m.-1 p.m.; Jun-Sep 8 a.m.-noon",
+     "source": "https://fortpiercefarmersmarket.com/",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Port St. Lucie Green Market",
+     "type": "Open-air market at the event center",
+     "area": "MIDFLORIDA Credit Union Event Center, 9221 SE Event Center Pl, Port St. Lucie 34952",
+     "why": "Visit St. Lucie lists an open-air, family- and pet-friendly market with local food and artisan vendors. Criteria met: free, local vendors, in the city.",
+     "cost": "Free (Visit St. Lucie listing)",
+     "hours": "Nov 15, 2026, 12-6 p.m. (the regular schedule is not on the Visit St. Lucie listing)",
+     "source": "https://visitstlucie.com/?p=304666",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Tradition Neighborhood Market",
+     "type": "Sunday neighborhood market",
+     "area": "Tradition Square, Tradition, Port St. Lucie (west PSL)",
+     "why": "Visit St. Lucie's market guide describes a Sunday market with fresh produce and handcrafted goods. Criteria met: weekly, in Tradition. The guide gives no address or hours.",
+     "cost": "Not stated by Visit St. Lucie",
+     "hours": "Sundays (no hours stated by Visit St. Lucie; its organizer page is facebook.com/pslmarket)",
+     "source": "https://visitstlucie.com/?p=223059",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Wednesday Green Market",
+     "type": "Midweek outdoor market",
+     "area": "Downtown Fort Pierce waterfront (Fort Pierce, about 20 min north)",
+     "why": "Visit St. Lucie's guide lists local products, farm-fresh vegetables and artisan crafts along the waterfront. Criteria met: midweek option for fresh produce.",
+     "cost": "Not stated by Visit St. Lucie",
+     "hours": "Wednesdays (no hours stated by Visit St. Lucie)",
+     "source": "https://visitstlucie.com/?p=223059",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Sprouts Farmers Market, St. Lucie West",
+     "type": "Grocery store with fresh produce",
+     "area": "1759 NW St. Lucie West Blvd, Port St. Lucie 34986 (St. Lucie West)",
+     "why": "Sprouts' own press release says the store opened April 15, 2022, with produce 'at the heart of the store' and an assortment that includes organic, plant-based and gluten-free items. Criteria met: daily fresh-produce option when markets are closed.",
+     "cost": "Grocery prices vary",
+     "hours": "7 a.m.-10 p.m. (Sprouts store page)",
+     "source": "https://www.sprouts.com/store/fl/port-st-lucie/nw-st-lucie-west-blvd/",
+     "checked": "2026-10-27"
+    }
+   ],
+   "short": "Farmers markets and fresh, local food near Port St. Lucie"
+  },
+  {
+   "slug": "free-low-cost-fitness-classes",
+   "title": "Free and low-cost fitness in Port St. Lucie",
+   "intro": "Port St. Lucie's city fitness centers charge $5 for an adult day pass, and the city's Fitness Parks Pass covers yoga, tai chi, Zumba and boot camps in parks from November through April. Free options are the outdoor fitness stations in city parks and group runs at a local running store.",
+   "faq": [
+    {
+     "q": "Is there free yoga in Port St. Lucie?",
+     "a": "The city's yoga in the parks is pass-based: $25 for 5 classes or $50 for 12 classes, plus tax. The city also runs occasional no-registration sample classes, such as a free tai chi class and a free Zumba class in July 2026, and its outdoor fitness stations are free to use."
+    },
+    {
+     "q": "When do outdoor fitness classes start?",
+     "a": "The city says outdoor classes (yoga in the parks, tai chi, Zumba and boot camps) return from November through April. We could not find a published fall 2026 schedule on 2026-10-27, so call 772-204-7101."
+    },
+    {
+     "q": "How much is a day pass at the city fitness centers?",
+     "a": "The city lists $5 for adults 18-59 and $4 for students 16+ with ID and seniors 60+, plus tax, with photo ID required. No one under 16 is admitted to the fitness centers."
+    },
+    {
+     "q": "Is there a run club in Port St. Lucie?",
+     "a": "Fleet Feet Port St. Lucie lists a Monday group run for runners and walkers, 6:30 to 7:30 p.m. at 11586 SW Village Pkwy. Cost is not listed, so ask the store."
+    }
+   ],
+   "entries": [
+    {
+     "name": "City Fitness Parks Pass (outdoor season)",
+     "type": "City-run classes: yoga, tai chi, Zumba, boot camp",
+     "area": "Parks across Port St. Lucie; buy at the Community Center or MIDFLORIDA Event Center",
+     "why": "City news release: certified fitness professionals teach outdoor classes November through April; indoor July-September. Criteria met: low-cost, beginner-friendly, outdoors. Exact fall 2026 times were not published at check.",
+     "cost": "$25 for 5 classes or $50 for 12 classes, plus tax",
+     "hours": "Outdoor classes Nov-Apr; schedule not published at check (call 772-204-7101)",
+     "source": "https://www.cityofpsl.com/News-Stories/2026/Fitness-Parks-Pass-now-offers-affordable-indoor-and-outdoor-programs",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Port St. Lucie Community Center Fitness & Wellness Center",
+     "type": "City fitness center",
+     "area": "2195 SE Airoso Blvd, Port St. Lucie (central PSL)",
+     "why": "City fitness page: more than 50 classes with membership, Silver Sneakers and Prime access, indoor racquetball, gym. Criteria met: day pass available, one membership covers two city centers.",
+     "cost": "Day pass $5 adults (18-59), $4 students 16+/seniors 60+; monthly $33/$30; plus tax",
+     "hours": "Not stated on the city fitness page; call 772-873-6432",
+     "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Fitness",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "MIDFLORIDA Event Center Fitness & Wellness Center",
+     "type": "City fitness center",
+     "area": "9221 SE Event Center Pl, Port St. Lucie 34952",
+     "why": "Same city membership and day-pass prices as the Community Center; the city's summer yoga and tai chi classes also met here. Criteria met: day pass, classes, second location.",
+     "cost": "Day pass $5 adults, $4 students 16+/seniors 60+, plus tax",
+     "hours": "Not stated on the city fitness page; call 772-204-7101",
+     "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Fitness",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Jessica Clinton Park",
+     "type": "City park with outdoor fitness station and lighted loop",
+     "area": "3200 SE Southbend Blvd, Port St. Lucie 34984 (south PSL)",
+     "why": "City page lists a lighted half-mile sidewalk trail around the perimeter and an outdoor fitness station; the city fitness page says park fitness stations are free equipment. Criteria met: free, evening-friendly.",
+     "cost": "Free (no fee listed; city calls park fitness stations free equipment)",
+     "hours": "8 a.m. to 10 p.m. (sports light curfew 9:30 p.m.)",
+     "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/Jessica-Clinton-Park",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Charles E. Ray Park",
+     "type": "City park with outdoor fitness station",
+     "area": "5626 NW Manville Dr, Port St. Lucie 34983 (north PSL)",
+     "why": "City page lists a fitness station (outdoor), tennis and pickleball courts, sand volleyball and a shaded playground. Criteria met: free equipment plus courts in one park.",
+     "cost": "No fee listed on the city page",
+     "hours": "8 a.m. to sunset",
+     "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/Charles-E-Ray-Park",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Fleet Feet Port St. Lucie Monday group run",
+     "type": "Group run and walk",
+     "area": "11586 SW Village Pkwy, Port St. Lucie 34987 (Tradition)",
+     "why": "Fleet Feet's community page lists a weekly Monday group run for 'fellow runners and walkers'. Criteria met: weekly, open to walkers.",
+     "cost": "Not listed by Fleet Feet (ask the store)",
+     "hours": "Mondays 6:30-7:30 p.m. per Fleet Feet's community page",
+     "source": "https://www.fleetfeet.com/s/stuart/community",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Whispering Pines Park Racket & Paddle Center",
+     "type": "City park with pickleball and tennis",
+     "area": "800 SW Darwin Blvd, Port St. Lucie 34953 (central PSL)",
+     "why": "City page: 24 lighted pickleball courts, tennis courts, an outdoor skating rink and trails in a 37-acre park. Criteria met: large court facility run by the city.",
+     "cost": "Court drop-in fees not listed on the city page; youth and adult tennis programs are $60 per month",
+     "hours": "8 a.m. to 10 p.m. (sports light curfew 9:30 p.m.)",
+     "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/Whispering-Pines-Park-Racket-and-Paddle-Center",
+     "checked": "2026-10-27"
+    }
+   ],
+   "short": "Free and low-cost fitness in Port St. Lucie"
+  },
+  {
+   "slug": "healthy-places-to-eat",
+   "title": "Places to eat lighter in Port St. Lucie",
+   "intro": "These Port St. Lucie spots serve salads, bowls, wraps, juices or smoothies, and each one's own website shows its menu or hours. None paid to be listed and none are partners.",
+   "faq": [
+    {
+     "q": "Where can I find healthy food in Port St. Lucie?",
+     "a": "Menus on the businesses' own sites show salads, wraps, açaí or poke bowls, juices and smoothies at Berry Forkin' Good, 3Natives, Field of Greens, Just Salad and We Be Healthy. Order what fits your own needs; we do not rate the nutrition of any menu."
+    },
+    {
+     "q": "Are there vegan options?",
+     "a": "Field of Greens' Tradition menu page names a vegan falafel wrap, and We Be Healthy's ordering site tags vegan dishes. Ask each restaurant about ingredients and preparation."
+    },
+    {
+     "q": "Where can I eat gluten-free in Port St. Lucie?",
+     "a": "Berry Forkin' Good lists gluten-free granola in its bowls plus a gluten-free crepe and waffle, and says to call (772) 758-1069 if you have celiac disease. Always confirm with the restaurant."
+    },
+    {
+     "q": "Do restaurants pay to be on this list?",
+     "a": "No. No listed business paid or is a partner. Each entry is on the list because its own site shows the menu, hours or address that we checked on 2026-10-27."
+    }
+   ],
+   "entries": [
+    {
+     "name": "Berry Forkin' Good",
+     "type": "Juice, smoothie and açaí cafe",
+     "area": "333 SE Port St. Lucie Blvd, Port St. Lucie 34984 (central PSL)",
+     "why": "Menu lists named açaí bowls with fruit, gluten-free granola and honey, and the cafe says its bowls are made without sorbets or refined sugars. Criteria met: ingredients named, gluten-free items labeled.",
+     "cost": "See menu for prices",
+     "hours": "Sun 9-8; Mon-Tue 9-6; Wed-Sat 9-8 (cafe's site)",
+     "source": "https://berryforkingood.com/menu",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "3Natives (Tradition)",
+     "type": "Smoothie, bowl, wrap and juice cafe",
+     "area": "10795 SW Tradition Sq, Port St. Lucie 34987 (Tradition)",
+     "why": "Site lists açaí bowls, smoothies, cold and hot wraps, bagels and toast, and juices. Criteria met: fruit- and veggie-based menu categories. The page shows no dietary labels.",
+     "cost": "See menu for prices",
+     "hours": "Mon-Sun 8 a.m.-8 p.m. (store locator)",
+     "source": "https://3natives.com/store_locations/tradition/",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "3Natives (St. Lucie West)",
+     "type": "Smoothie, bowl, wrap and juice cafe",
+     "area": "1413 St Lucie W Blvd, Port St. Lucie 34986 (St. Lucie West)",
+     "why": "Same menu categories as the Tradition store: açaí bowls, smoothies, wraps, bagels and toast, juices. Criteria met: made-to-order wraps and salads per the store page.",
+     "cost": "See menu for prices",
+     "hours": "Mon-Sat 8 a.m.-8 p.m.; Sun 8 a.m.-7 p.m. (store locator)",
+     "source": "https://3natives.com/store_locations/st-lucie-west/",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Field of Greens (Tradition)",
+     "type": "Breakfast and lunch cafe",
+     "area": "10400 SW Discovery Way, Port St. Lucie 34987 (Tradition)",
+     "why": "Menu pages list salads, wraps, soups, açaí bowls, fresh-pressed juices and smoothies, and a falafel wrap marked as the vegan option. Criteria met: named dishes, a vegan option labeled.",
+     "cost": "See menu for prices",
+     "hours": "Sun-Sat 9 a.m.-4 p.m. (cafe's site)",
+     "source": "https://ilovefog.com/locations/healthy-cuisine-restaurant-tradition-port-st-lucie-fl/",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Just Salad (St. Lucie West)",
+     "type": "Salad restaurant (chain)",
+     "area": "1774 St. Lucie W. Blvd, Port St. Lucie 34986 (Westport Shoppes, St. Lucie West)",
+     "why": "Company location page lists outdoor seating, a kids' menu and a reusable-bowl return program. Criteria met: salad-focused menu on the company's ordering page; hours posted.",
+     "cost": "See ordering page for prices",
+     "hours": "Mon-Sun 10 a.m.-9:30 p.m. (company page)",
+     "source": "https://www.justsalad.com/location/61-port-st-lucie/",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "We Be Healthy",
+     "type": "Poke bowl, juice and smoothie shop",
+     "area": "6642 S Federal Hwy, Port St. Lucie 34952 (south PSL)",
+     "why": "Site says it serves poke bowls, handcrafted juices and smoothies, and its ordering site tags gluten-free and vegan dishes. Criteria met: bowls and juices; the site lists no hours, so call before you go.",
+     "cost": "See ordering page for prices",
+     "hours": "Not stated on the shop's site",
+     "source": "https://webehealthyfl.com/",
+     "checked": "2026-10-27"
+    }
+   ],
+   "short": "Places to eat lighter in Port St. Lucie"
+  },
+  {
+   "slug": "self-care-and-recovery",
+   "title": "Self-care and recovery in Port St. Lucie",
+   "intro": "Spa days, massage, yoga and nail care each have their own booking rules, so this list shows what each business's own site says. It also links the Florida state tool for checking that a salon or spa professional is licensed before you book.",
+   "faq": [
+    {
+     "q": "How do I check that a salon or spa professional is licensed?",
+     "a": "The Florida Department of Business and Professional Regulation has a free Verify a Licensee search on myfloridalicense.com where you can look up a business or a person by name. The site also has an Unlicensed Activity search."
+    },
+    {
+     "q": "Where can I get a massage in Port St. Lucie?",
+     "a": "Sanctuary Spa (St. Lucie West), Natural Spa & Massage (Tradition area) and Massage Envy (St. Lucie West) all list massage. Our salon (listed once, below) offers nail services only."
+    },
+    {
+     "q": "What should I know before a spa day?",
+     "a": "Sanctuary Spa's site asks guests to arrive about 15 minutes early, says children under 16 are not permitted unless receiving services, and lists a 24-hour notice for a la carte services and 48 hours for packages and Saturdays to avoid a 50 percent charge. Other spas set their own rules, so read before you book."
+    },
+    {
+     "q": "Is there a gentle yoga class near Port St. Lucie?",
+     "a": "Down to Earth Yoga posts a weekly schedule that includes Gentle Yoga, YIN Restore and a Tai Chi series. Pricing and booking are on the studio's schedule-and-pricing page."
+    }
+   ],
+   "entries": [
+    {
+     "name": "G Salon & Spa (our salon)",
+     "type": "Nail salon, walk-ins welcome",
+     "area": "466 SW Port St. Lucie Blvd #105, Port St. Lucie, FL 34953 (central PSL)",
+     "why": "Our salon, listed once. Nail services only (manicure, pedicure, Gel-X, dip, acrylic, nail art); walk-ins welcome. Criteria: nails-only self-care option; we are the owner of this entry, not an independent review.",
+     "cost": "$ (Classic Pedicure $35, from our own price list)",
+     "hours": "Hours not listed here; see our site (our hours are being updated)",
+     "source": "https://gsalonspapsl.com",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "The Sanctuary Spa",
+     "type": "Day spa (massage, spa treatments)",
+     "area": "1555 NW St Lucie West Blvd, Suite 101, Port St. Lucie 34986 (St. Lucie West)",
+     "why": "Spa's site lists massage therapy with posted prices and times, an about page with booking and cancellation rules, and a ban on children under 16 unless receiving services. Criteria met: prices and policies posted.",
+     "cost": "$$ (Swedish massage 50 min $90, 80 min $130 per spa site)",
+     "hours": "Not stated on the pages we read; call 772-345-7727",
+     "source": "https://www.sanctuaryspatradition.com/services.html",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Natural Spa & Massage",
+     "type": "Massage and skin-care spa",
+     "area": "10513 SW Meeting St, Suite 103, Port St. Lucie 34987 (Tradition area)",
+     "why": "Spa's site lists massages, facials and body scrubs, and a request-an-appointment form. Criteria met: services listed by the business. Prices are not posted on the home page.",
+     "cost": "Not posted on the pages we read",
+     "hours": "Not stated on the pages we read; call (772) 800-6208",
+     "source": "https://www.naturalspamassages.com/",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Massage Envy, St. Lucie West",
+     "type": "Massage and facial studio (chain)",
+     "area": "1707 NW St. Lucie West Blvd, Suite 146, Port St. Lucie 34986 (Town Center, St. Lucie West)",
+     "why": "Company location page; address confirmed through the company's location listing. Criteria met: company-run location with a posted phone, +1 772-344-0222.",
+     "cost": "Not verified",
+     "hours": "Not verified (company locator pages disagree)",
+     "source": "https://locations.massageenvy.com/florida/port-st.-lucie/1707-nw-st-lucie-west-blvd-ste-146.html",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Down to Earth Yoga",
+     "type": "Yoga studio",
+     "area": "1621 SE Port St. Lucie Blvd, Port St. Lucie 34952 (central PSL)",
+     "why": "Studio posts a live weekly schedule with gentle, yin and tai chi classes and a published pricing page. Criteria met: beginner-level classes named, schedule public.",
+     "cost": "See studio's pricing page",
+     "hours": "Class times vary; weekly schedule on the studio's site",
+     "source": "https://dte-yoga.com/schedule-and-pricing/",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Florida DBPR: Verify a Licensee",
+     "type": "State license lookup (online)",
+     "area": "Online, any Port St. Lucie salon, spa or professional",
+     "why": "Free state tool to look up a salon or professional before booking, plus an Unlicensed Activity search. Criteria met: official source, free, works for any provider.",
+     "cost": "Free",
+     "hours": "Online",
+     "source": "https://www.myfloridalicense.com/wl11.asp?mode=0&SID=",
+     "checked": "2026-10-27"
+    }
+   ],
+   "short": "Self-care and recovery in Port St. Lucie"
+  },
+  {
+   "slug": "healthy-holiday-season-2026",
+   "title": "5Ks, Turkey Trots and a healthy holiday season in Port St. Lucie (Nov-Dec 2026)",
+   "intro": "Port St. Lucie's Thanksgiving morning 5K is the Turkey Trot at Tradition on Thursday, November 26, 2026, with the Freedom Isn't Free Run 5K on November 14 and the Centennial Athletics December Dash on December 12. Dates below come from official event or registration pages read on 2026-10-27 and re-read for the 5Ks on 2026-10-31; prices and start times can change.",
+   "faq": [
+    {
+     "q": "Is there a turkey trot in Port St. Lucie in 2026?",
+     "a": "Yes. The 9th annual Turkey Trot at Tradition is Thursday, November 26, 2026 with an 8:00 a.m. 5K start at Tradition Town Hall, Southwest Civic Lane. A second Thanksgiving 5K, the Pelican Yacht Club Turkey Trot, is in Fort Pierce at 7:15 a.m."
+    },
+    {
+     "q": "Can I walk instead of run?",
+     "a": "The Turkey Trot at Tradition registration is for a '5K Race/Fun Run Walk' and says kids in strollers are welcome. The Freedom Isn't Free Run 5K lists walkers as welcome."
+    },
+    {
+     "q": "What does it cost?",
+     "a": "The Turkey Trot at Tradition lists $40 for adults 19 and over through Oct. 26 and $45 from Oct. 27, with $30 for ages 18 and under. The Muster 5K is $35, the Pelican Turkey Trot $45 (rising after Nov. 22), and the December Dash $40. Check each page for current prices."
+    },
+    {
+     "q": "Are there outdoor fitness classes in the cooler months?",
+     "a": "The City of Port St. Lucie says its outdoor Fitness Parks Pass classes (yoga in the parks, tai chi, Zumba and boot camps) return from November through April. A fall schedule had not been published when we checked."
+    }
+   ],
+   "entries": [
+    {
+     "name": "22nd Annual Muster 5K Beach Challenge",
+     "type": "5K run (Navy SEAL Museum)",
+     "area": "3300 N Hwy A1A, Fort Pierce 34949 (Fort Pierce, about 25 min from central PSL)",
+     "why": "RunSignup page: race starts 8:00 a.m. on Museum property, with parking on the west side of A1A. Criteria met: official registration page with date, time and fee. Noted: outside Port St. Lucie.",
+     "cost": "$35 standard; $25 military/first responders with ID; $40 race day",
+     "hours": "Sat Nov 7, 2026, 8:00 a.m. (be at start by 7:45)",
+     "source": "https://runsignup.com/Race/FL/FortPierce/Muster5KBeachChallenge",
+     "checked": "2026-10-31"
+    },
+    {
+     "name": "Freedom Isn't Free Run 5K",
+     "type": "5K run/walk",
+     "area": "Clover Park, 31 Piazza Dr, Port St. Lucie 34986 (St. Lucie West)",
+     "why": "RunSignup page: chip-timed 5K benefiting Treasure Coast Blue Star Mothers; walkers welcome. Criteria met: official registration page. No kids' race listed.",
+     "cost": "Fee not shown on the page we read",
+     "hours": "Sat Nov 14, 2026, 7:30 a.m.",
+     "source": "https://runsignup.com/Race/FL/PortSaintLucie/FreedomIsnTFreeRun5K",
+     "checked": "2026-10-31"
+    },
+    {
+     "name": "Port St. Lucie Green Market (November edition)",
+     "type": "Open-air market",
+     "area": "MIDFLORIDA Credit Union Event Center, 9221 SE Event Center Pl, Port St. Lucie 34952",
+     "why": "Visit St. Lucie lists a free, open-air, family- and pet-friendly market with local food and artisan vendors. Criteria met: free, outdoors.",
+     "cost": "Free",
+     "hours": "Sun Nov 15, 2026, 12-6 p.m.",
+     "source": "https://visitstlucie.com/?p=304666",
+     "checked": "2026-10-27"
+    },
+    {
+     "name": "Turkey Trot at Tradition (9th annual)",
+     "type": "Thanksgiving 5K run/walk",
+     "area": "Tradition Town Hall, SW Civic Ln, Port St. Lucie 34987 (Tradition)",
+     "why": "Race Roster page: 5K 'Race/Fun Run Walk', 8:00 a.m. start; organized by Turkey Trot Tradition, Inc., a 501(c)(3); proceeds go to local charities. Criteria met: official registration page.",
+     "cost": "Adults 19+ $45 (price from Oct 27 as listed); ages 18 and under $30",
+     "hours": "Thu Nov 26, 2026, 8:00 a.m.",
+     "source": "https://raceroster.com/events/2026/138972/turkey-trot-at-tradition",
+     "checked": "2026-10-31"
+    },
+    {
+     "name": "Pelican Yacht Club Turkey Trot 5K (4th annual)",
+     "type": "Thanksgiving 5K",
+     "area": "1120 Seaway Dr, Fort Pierce 34949 (Fort Pierce, about 25 min from central PSL)",
+     "why": "RunSignup page: Thanksgiving-morning 5K capped at 750 participants; registration open at check. Criteria met: official registration page. Noted: outside Port St. Lucie.",
+     "cost": "$45; price increases after Nov 22, 2026",
+     "hours": "Thu Nov 26, 2026, 7:15 a.m.",
+     "source": "https://runsignup.com/Race/FL/FortPierce/PelicanYachtClubTurkeyTrot",
+     "checked": "2026-10-31"
+    },
+    {
+     "name": "Festival of Lights",
+     "type": "City holiday festival (walkable, outdoors)",
+     "area": "MIDFLORIDA Credit Union Event Center, 9221 SE Event Center Pl, Port St. Lucie 34952",
+     "why": "Visit St. Lucie lists a midway carnival, vendors and food trucks leading into the Parade of Lights, tree lighting and fireworks. Criteria met: outdoor community event on foot. It is not a fitness event.",
+     "cost": "Not listed (contact the city at 772-871-1775)",
+     "hours": "Sat Dec 5, 2026, 2-10 p.m.",
+     "source": "https://visitstlucie.com/event/festival-of-lights-2/",
+     "checked": "2026-10-31"
+    },
+    {
+     "name": "Centennial Athletics December Dash",
+     "type": "5K run/walk",
+     "area": "St Lucie West Centennial High School (back courtyard by the gym), Port St. Lucie 34986 (St. Lucie West)",
+     "why": "RunSignup page: 5K fundraiser for the school's athletics department; $20 'Old Skool' no shirt/no medal option and a $25 virtual 5K. Criteria met: official registration page.",
+     "cost": "$40; $20 no shirt/no medal; $25 virtual",
+     "hours": "Sat Dec 12, 2026, 8:00 a.m. (events 8-10 a.m.)",
+     "source": "https://runsignup.com/Race/FL/PortSaintLucie/CentennialAthleticsDecemberDash",
+     "checked": "2026-10-31"
+    },
+    {
+     "name": "City Fitness Parks Pass: outdoor season",
+     "type": "City outdoor classes (yoga, tai chi, Zumba, boot camp)",
+     "area": "Parks across Port St. Lucie",
+     "why": "City news release: outdoor classes return November through April. Criteria met: official city source; exact class days and places were not published at check.",
+     "cost": "$25 for 5 classes or $50 for 12, plus tax",
+     "hours": "Nov-Apr; call 772-204-7101 for the schedule",
+     "source": "https://www.cityofpsl.com/News-Stories/2026/Fitness-Parks-Pass-now-offers-affordable-indoor-and-outdoor-programs",
+     "checked": "2026-10-27"
+    }
+   ],
+   "short": "5Ks, Turkey Trots and holiday walks"
+  }
+ ]
+}
