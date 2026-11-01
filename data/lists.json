@@ -7,7 +7,7 @@
    "faq": [
     {
      "q": "Where can I find walking trails in Port St. Lucie?",
-     "a": "The City of Port St. Lucie lists about three miles of walking trails at Oak Hammock Park and a sidewalk trail system at Woodland Trails Park. Savannas Preserve State Park has multi-use trails shared by hikers, bicyclists and horseback riders, and Oxbow Eco-Center & Preserve trails are open sunrise to sunset daily per the county."
+     "a": "The City of Port St. Lucie lists about three miles of walking trails at Oak Hammock Park and a sidewalk trail system at Woodland Trails Park. Savannas Preserve State Park has multi-use trails shared by hikers, bicyclists and horseback riders, and Oxbow Eco-Center & Preserve trails are open dawn to dusk daily per the county."
     },
     {
      "q": "Is there a fee to hike at Savannas Preserve State Park?",
@@ -31,7 +31,7 @@
      "cost": "No fee listed on the city page",
      "hours": "7 a.m. to sunset (City of Port St. Lucie)",
      "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/Oak-Hammock-Park",
-     "checked": "2026-10-27"
+     "checked": "2026-11-01"
     },
     {
      "name": "Savannas Preserve State Park",
@@ -39,19 +39,19 @@
      "area": "2541 SE Walton Rd, Port St. Lucie 34952 (Savannas area)",
      "why": "State page describes nature trails through the Savannas marsh system shared by hikers, bicyclists and horseback riders; trails can be wet by season.",
      "cost": "$3 per vehicle (up to 8 people); $2 per pedestrian",
-     "hours": "8 a.m. to sunset, 365 days a year (Florida State Parks)",
+     "hours": "8 a.m. to sunset, 365 days a year (Florida State Parks). The Environmental Education Center and information desk are closed for renovations.",
      "source": "https://www.floridastateparks.org/parks-and-trails/savannas-preserve-state-park/hours-and-fees",
-     "checked": "2026-10-27"
+     "checked": "2026-11-01"
     },
     {
      "name": "Oxbow Eco-Center & Preserve",
      "type": "County nature preserve with hiking trails",
      "area": "5400 NE St. James Dr, Port St. Lucie 34983 (north PSL)",
-     "why": "County page says preserve trails are open sunrise to sunset daily; a county brochure says there is no charge for the center, exhibits or trails.",
-     "cost": "Free (county brochure)",
-     "hours": "Trails: sunrise to sunset daily. Eco-Center hours differ between county sources, so none are listed here.",
-     "source": "https://www.stlucieco.gov/departments-and-services/oxbow-eco-center/visit-us/about-us",
-     "checked": "2026-10-27"
+     "why": "County page: 225 acres on the North Fork of the St. Lucie River with 4.5 miles of trails through floodplain forest, palmetto uplands and seasonal ponds, open dawn to dusk every day.",
+     "cost": "Free (county page: admission is always free)",
+     "hours": "Trails: dawn to dusk daily. Eco-Center: Tue-Fri noon-4 p.m., Sat 10 a.m.-4 p.m. (St. Lucie County)",
+     "source": "https://www.stlucieco.gov/departments-and-services/oxbow-eco-center/visit-us",
+     "checked": "2026-11-01"
     },
     {
      "name": "The Boardwalk at The Port District",
@@ -61,17 +61,17 @@
      "cost": "No fee listed on the city page",
      "hours": "Open 24/7 (City of Port St. Lucie)",
      "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/The-Boardwalk",
-     "checked": "2026-10-27"
+     "checked": "2026-11-01"
     },
     {
      "name": "McCarty Ranch Preserve",
      "type": "City preserve with cleared trails",
      "area": "12525 Range Line Rd, Port St. Lucie 34987 (west PSL, near Tradition)",
-     "why": "City page: 3,107 acres with cleared trails for walking, biking and horseback riding and a trail map PDF.",
-     "cost": "No day-use fee listed; camping is $20 per night tent, $23 RV, plus tax",
+     "why": "City page: cleared trails for walking, biking and horseback riding, a lake system over 300 acres for fishing and paddling, and an 18-hole disc golf course; trail map PDF on the page.",
+     "cost": "No day-use fee listed on the city page; tent and RV camping is by paid reservation (rates not read here)",
      "hours": "8 a.m. to sunset (extended hours for paid camping)",
      "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/McCarty-Ranch-Preserve",
-     "checked": "2026-10-27"
+     "checked": "2026-11-01"
     },
     {
      "name": "Port St. Lucie Botanical Gardens",
@@ -91,17 +91,17 @@
      "cost": "No fee listed on the city page",
      "hours": "8 a.m. to sunset (City of Port St. Lucie)",
      "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/Woodland-Trails-Park-Dog-Park",
-     "checked": "2026-10-27"
+     "checked": "2026-11-01"
     },
     {
      "name": "Stars and Stripes Park",
-     "type": "City park (opened June 2026)",
+     "type": "City park (grand opening set for June 4, 2026)",
      "area": "12441 SW Village Pkwy, Port St. Lucie (Tradition area)",
-     "why": "City news page: 26.5-acre park with green space, ponds and veteran and first-responder art installations, opened June 4, 2026.",
+     "why": "City news release (May 18, 2026): 26.5-acre park with green space, ponds and veteran and first-responder themed art installations; opening ceremony set for June 4, 2026.",
      "cost": "No fee listed on the city page",
      "hours": "Not stated on the city news page",
      "source": "https://www.cityofpsl.com/News-Stories/2026/Celebrate-Grand-Opening-of-Stars-and-Stripes-Park-at-Tradition",
-     "checked": "2026-10-27"
+     "checked": "2026-11-01"
     }
    ],
    "short": "Parks, trails and outdoor walks in Port St. Lucie"
@@ -213,17 +213,17 @@
      "cost": "$25 for 5 classes or $50 for 12 classes, plus tax",
      "hours": "Outdoor classes Nov-Apr; schedule not published at check (call 772-204-7101)",
      "source": "https://www.cityofpsl.com/News-Stories/2026/Fitness-Parks-Pass-now-offers-affordable-indoor-and-outdoor-programs",
-     "checked": "2026-10-27"
+     "checked": "2026-11-01"
     },
     {
      "name": "Port St. Lucie Community Center Fitness & Wellness Center",
      "type": "City fitness center",
-     "area": "2195 SE Airoso Blvd, Port St. Lucie (central PSL)",
+     "area": "2195 SE Airoso Blvd, Port St. Lucie 34984 (central PSL)",
      "why": "City fitness page: more than 50 classes with membership, Silver Sneakers and Prime access, indoor racquetball, gym.",
      "cost": "Day pass $5 adults (18-59), $4 students 16+/seniors 60+; monthly $33/$30; plus tax",
-     "hours": "Not stated on the city fitness page; call 772-873-6432",
+     "hours": "Mon-Fri 5:30 a.m.-7:30 p.m.; Sat-Sun 8 a.m.-noon (city center page); call 772-873-6432",
      "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Fitness",
-     "checked": "2026-10-27"
+     "checked": "2026-11-01"
     },
     {
      "name": "MIDFLORIDA Event Center Fitness & Wellness Center",
@@ -231,9 +231,9 @@
      "area": "9221 SE Event Center Pl, Port St. Lucie 34952",
      "why": "Same city membership and day-pass prices as the Community Center; the city's summer yoga and tai chi classes also met here.",
      "cost": "Day pass $5 adults, $4 students 16+/seniors 60+, plus tax",
-     "hours": "Not stated on the city fitness page; call 772-204-7101",
+     "hours": "Mon-Fri 6 a.m.-8 p.m.; Sat-Sun 8 a.m.-4 p.m.; holiday hours 7 a.m.-noon (city center page); call 772-204-7101",
      "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Fitness",
-     "checked": "2026-10-27"
+     "checked": "2026-11-01"
     },
     {
      "name": "Jessica Clinton Park",
@@ -243,17 +243,17 @@
      "cost": "Free (no fee listed; city calls park fitness stations free equipment)",
      "hours": "8 a.m. to 10 p.m. (sports light curfew 9:30 p.m.)",
      "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/Jessica-Clinton-Park",
-     "checked": "2026-10-27"
+     "checked": "2026-11-01"
     },
     {
      "name": "Charles E. Ray Park",
      "type": "City park with outdoor fitness station",
      "area": "5626 NW Manville Dr, Port St. Lucie 34983 (north PSL)",
      "why": "City page lists a fitness station (outdoor), tennis and pickleball courts, sand volleyball and a shaded playground.",
-     "cost": "No fee listed on the city page",
+     "cost": "No fee listed on the city page; the city fitness page lists its outdoor fitness station as free",
      "hours": "8 a.m. to sunset",
      "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/Charles-E-Ray-Park",
-     "checked": "2026-10-27"
+     "checked": "2026-11-01"
     },
     {
      "name": "Fleet Feet Port St. Lucie Monday group run",
@@ -269,11 +269,11 @@
      "name": "Whispering Pines Park Racket & Paddle Center",
      "type": "City park with pickleball and tennis",
      "area": "800 SW Darwin Blvd, Port St. Lucie 34953 (central PSL)",
-     "why": "City page: 24 lighted pickleball courts, tennis courts, an outdoor skating rink and trails in a 37-acre park.",
-     "cost": "Court drop-in fees not listed on the city page; youth and adult tennis programs are $60 per month",
+     "why": "City page: 24 lighted pickleball courts, tennis courts, a skating rink and trails in a 37-acre park.",
+     "cost": "Court drop-in fees not listed on the city page; call the Racket & Paddle Center at 772-871-7670",
      "hours": "8 a.m. to 10 p.m. (sports light curfew 9:30 p.m.)",
      "source": "https://www.cityofpsl.com/Government/Your-City-Government/Departments/Parks-Recreation/Parks/Whispering-Pines-Park-Racket-and-Paddle-Center",
-     "checked": "2026-10-27"
+     "checked": "2026-11-01"
     }
    ],
    "short": "Free and low-cost fitness in Port St. Lucie"
@@ -309,7 +309,7 @@
      "cost": "See menu for prices",
      "hours": "Sun 9-8; Mon-Tue 9-6; Wed-Sat 9-8 (cafe's site)",
      "source": "https://berryforkingood.com/menu",
-     "checked": "2026-10-27"
+     "checked": "2026-11-01"
     },
     {
      "name": "3Natives (Tradition)",
@@ -541,7 +541,7 @@
      "cost": "$25 for 5 classes or $50 for 12, plus tax",
      "hours": "Nov-Apr; call 772-204-7101 for the schedule",
      "source": "https://www.cityofpsl.com/News-Stories/2026/Fitness-Parks-Pass-now-offers-affordable-indoor-and-outdoor-programs",
-     "checked": "2026-10-27"
+     "checked": "2026-11-01"
     }
    ],
    "short": "5Ks, Turkey Trots and holiday walks"
