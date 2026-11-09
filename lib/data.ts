@@ -28,15 +28,16 @@ export const fmtDate = (iso: string) => new Date(iso + "T12:00:00").toLocaleDate
 export const mapsUrl = (e: Entry) => "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(e.area.replace(/\s*\(.*\)\s*$/, "") + (/port st\. lucie|fort pierce/i.test(e.area) ? "" : ", Port St. Lucie, FL"));
 export const salonLink = (e: Entry) => (e.source.startsWith("https://gsalonspapsl.com") ? SALON_URL : e.source);
 
-// "Right now in PSL": only dates seen on an official page (checked 2026-10-31).
+// "Right now in PSL": only dates seen on an official page (checked 2026-11-09).
 export const NOW = [
   { date: "Sat Nov 14", title: "Freedom Isn't Free Run 5K", where: "Clover Park, St. Lucie West", href: "https://runsignup.com/Race/FL/PortSaintLucie/FreedomIsnTFreeRun5K" },
   { date: "Thu Nov 26", title: "Turkey Trot at Tradition (9th annual)", where: "Tradition Town Hall, 8:00 a.m. 5K", href: "https://raceroster.com/events/2026/138972/turkey-trot-at-tradition" },
   { date: "Sat Dec 5", title: "Festival of Lights", where: "MIDFLORIDA Credit Union Event Center", href: "https://visitstlucie.com/event/festival-of-lights-2/" },
 ];
-export const NOW_CHECKED = "2026-10-31";
+export const NOW_CHECKED = "2026-11-09";
 
 export const CHANGELOG = [
+  { date: "2026-11-09", text: "Weekly re-check. Removed the 22nd Annual Muster 5K Beach Challenge (Fort Pierce) because its Nov 7 date has passed. Re-opened the official pages for the race and event entries, both Tradition and St. Lucie West 3Natives stores, Field of Greens, Just Salad, We Be Healthy, Sprouts, the Fort Pierce markets, Oak Hammock Park, the Botanical Gardens, Fleet Feet, Natural Spa and Sanctuary Spa; dates, hours and prices matched and their checked date is now Nov 9, 2026. One note added: the Freedom Isn't Free Run 5K page showed a Donate button but no sign-up button, so confirm registration with the organizers. The Savannas Preserve and Oxbow county and state pages blocked our check and keep their Nov 1 date." },
   { date: "2026-11-01", text: "Re-read 14 city, county, state and cafe pages in a browser and set their checked date to Nov 1, 2026. Corrections: Oxbow Eco-Center now shows its county-listed hours (Eco-Center Tue-Fri noon-4 p.m., Sat 10 a.m.-4 p.m.; trails dawn to dusk; free) and 4.5 miles of trails. Both city fitness centers now show their posted hours. Savannas Preserve notes that its education center and information desk are closed for renovations. Removed details we could not see on the official page: McCarty Ranch camping rates and acreage, and Whispering Pines tennis program prices. Stars and Stripes Park is now described as the city's announced June 4 opening." },
   { date: "2026-10-31", text: "Corrections after review: Turkey Trot at Tradition youth price (ages 18 and under) is $35, not $30. Our salon entry now shows its real hours and a \"from $35\" pedicure price, and sits after the independent places. Removed Massage Envy St. Lucie West because its cost and hours could not be confirmed on the company page. Added the December Dash note that online registration opens Dec 11." },
   { date: "2026-10-31", text: "Site launched with 6 lists (40 entries from official pages). Race dates, times and prices on the 5K list re-read on 2026-10-31. Turkey Trot at Tradition adult price now shows $45 (the $40 tier ended Oct 26)." },
