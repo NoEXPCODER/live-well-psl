@@ -1,9 +1,21 @@
-import { ORDERED, NOW, NOW_CHECKED, TEASERS, CHANGELOG, fmtDate, latestChecked } from "@/lib/data";
+import type { Metadata } from "next";
+import Newsletter from "@/components/Newsletter";
+import JsonLd from "@/components/JsonLd";
+import { SITE, ORDERED, NOW, NOW_CHECKED, TEASERS, CHANGELOG, fmtDate, latestChecked } from "@/lib/data";
+
+export const metadata: Metadata = { alternates: { canonical: "/" }, openGraph: { title: "Live Well PSL: checked guides to healthy living in Port St. Lucie", url: "/" } };
+
+const LD = [
+  { "@context": "https://schema.org", "@type": "WebSite", name: "Live Well PSL", url: SITE, description: "Curated, checked guides to healthy living in Port St. Lucie, Florida." },
+  { "@context": "https://schema.org", "@type": "Organization", name: "Live Well PSL", url: SITE, sponsor: { "@type": "Organization", name: "G Salon & Spa", url: "https://gsalonspapsl.com" }, funder: { "@type": "Organization", name: "G Salon & Spa", url: "https://gsalonspapsl.com" } },
+];
 
 export default function Home() {
   const [feat, ...rest] = ORDERED;
   return (
     <>
+      {LD.map((d, i) => <JsonLd key={i} data={d} />)}
+      <h1 className="home-h1">Healthy living in Port St. Lucie: checked lists for Nov–Dec 2026</h1>
       <a className="arch" href={`/lists/${feat.slug}`}>
         <div className="arch-in">
           <span className="pill">Featured list</span>
@@ -34,6 +46,8 @@ export default function Home() {
           </a>
         ))}
       </div>
+
+      <Newsletter />
 
       <div className="trust">
         <h3 style={{ fontSize: 24, marginBottom: 6 }}>How we pick</h3>

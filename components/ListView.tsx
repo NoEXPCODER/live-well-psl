@@ -19,12 +19,15 @@ export function useSaved() {
 
 export function EntryCard({ e, n, id, saved, toggle }: { e: Entry; n?: number; id: string; saved: boolean; toggle: (id: string) => void }) {
   const ours = e.name.includes("(our salon)");
+  const [more, setMore] = useState(false);
+  const long = e.why.length > 130;
   return (
     <article className="entry" id={"e" + id.split(":")[1]}>
       {n ? <span className="num" aria-hidden>{n}</span> : null}
       <h3>{e.name}</h3>
       <div className="type">{e.type}</div>
-      <p className="why">Why it is here: {e.why}</p>
+      <p className={"why" + (long && !more ? " clamp" : "")}>{e.why}</p>
+      {long && <button className="more" onClick={() => setMore(!more)} aria-expanded={more}>{more ? "Less" : "More"}</button>}
       {ours && <div className="ours">Our salon: we run G Salon &amp; Spa, so this entry is not an independent review.</div>}
       <dl className="facts">
         <dt>Where</dt><dd>{e.area} · <a href={mapsUrl(e)} rel="noopener">Directions</a></dd>

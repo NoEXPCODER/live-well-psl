@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import JsonLd from "@/components/JsonLd";
+import Newsletter from "@/components/Newsletter";
 import ListView from "@/components/ListView";
 import { LISTS, SITE, fmtDate, latestChecked } from "@/lib/data";
 
@@ -44,6 +45,10 @@ export default async function ListPage({ params }: { params: Promise<{ slug: str
         </ul>
       </div>
       <ListView slug={l.slug} entries={l.entries} />
+      {l.slug === "healthy-holiday-season-2026" && (
+        <p className="ours">Post-race pedicure? Our salon, <a href="https://gsalonspapsl.com/?src=livewell-5k" rel="noopener">G Salon &amp; Spa</a>, offers a Classic Pedicure from $35 (Tue–Sat 9:30 a.m.–7 p.m., Sun 11 a.m.–5 p.m., closed Mon). This is our own salon, not an independent pick.</p>
+      )}
+      <Newsletter />
       <h2 className="sec">Questions</h2>
       <div className="faq">
         {l.faq.map((f) => (<details key={f.q}><summary>{f.q}</summary><p>{f.a}</p></details>))}
