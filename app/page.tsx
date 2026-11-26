@@ -19,7 +19,7 @@ export default function Home() {
       <a className="arch" href={`/lists/${feat.slug}`}>
         <div className="arch-in">
           <span className="pill">Featured list</span>
-          <h2>Turkey Trots &amp; 5Ks</h2>
+          <h2>Holiday Lights &amp; 5Ks</h2>
           <p>{feat.entries.length} places and events for a healthy holiday season, Nov to Dec 2026.</p>
           <span className="go" aria-hidden>→</span>
         </div>
