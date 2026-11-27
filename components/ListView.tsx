@@ -1,12 +1,16 @@
 "use client";
 import { useEffect, useState } from "react";
 import type { Entry } from "@/lib/data";
-import { isFree, outsidePSL, mapsUrl, salonLink, fmtDate } from "@/lib/data";
+import { entryId, isFree, outsidePSL, mapsUrl, salonLink, fmtDate } from "@/lib/data";
 
 export function useSaved() {
   const [saved, setSaved] = useState<string[]>([]);
   useEffect(() => {
-    try { setSaved(JSON.parse(localStorage.getItem("lwpsl-saved") || "[]")); } catch {}
+    try { const raw = JSON.parse(localStorage.getItem("lwpsl-saved") || "[]");
+      // Old saves were list:index; they cannot be mapped safely, so drop them.
+      const ok = (Array.isArray(raw) ? raw : []).filter((x: unknown) => typeof x === "string" && !/:\d+$/.test(x));
+      setSaved(ok);
+      if (ok.length !== raw.length) localStorage.setItem("lwpsl-saved", JSON.stringify(ok)); } catch {}
   }, []);
   const toggle = (id: string) =>
     setSaved((s) => {
@@ -61,7 +65,7 @@ export default function ListView({ slug, entries }: { slug: string; entries: Ent
       </div>
       <div className="entries">
         {show.map(({ e, i }) => {
-          const id = `${slug}:${i}`;
+          const id = entryId(slug, e);
           return <EntryCard key={id} e={e} n={i + 1} id={id} saved={saved.includes(id)} toggle={toggle} />;
         })}
       </div>

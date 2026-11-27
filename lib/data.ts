@@ -21,6 +21,7 @@ export const TEASERS: Record<string, string> = {
   "healthy-places-to-eat": "Lighter menus, one source and one date each.",
 };
 
+export const entryId = (slug: string, e: Entry) => slug + ":" + e.name.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 export const isFree = (e: Entry) => /^(free|no fee|no day-use|no charge)/i.test(e.cost);
 export const outsidePSL = (e: Entry) => /outside port st\. lucie|fort pierce/i.test(e.why + " " + e.area);
 export const latestChecked = (l: List) => l.entries.map((e) => e.checked).sort().slice(-1)[0];
