@@ -8,12 +8,12 @@ export const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://live-well-psl.v
 export const SALON_URL = "https://gsalonspapsl.com/?src=livewell";
 export const LISTS = (raw as { lists: List[] }).lists;
 
-// Order shown on the site: Turkey Trot / 5K list first, healthy eats last (research/COMPETITORS.md).
+// Order shown on the site: Holiday / 5K list first, healthy eats last (research/COMPETITORS.md).
 const ORDER = ["healthy-holiday-season-2026","parks-trails-outdoor-workouts","farmers-markets-fresh-local-food","free-low-cost-fitness-classes","self-care-and-recovery","healthy-places-to-eat"];
 export const ORDERED = ORDER.map((s) => LISTS.find((l) => l.slug === s)!);
 
 export const TEASERS: Record<string, string> = {
-  "healthy-holiday-season-2026": "Turkey Trot at Tradition on Nov 26, plus the 5Ks we could confirm.",
+  "healthy-holiday-season-2026": "Free holiday lights, the Dec 12 December Dash 5K and outdoor classes.",
   "parks-trails-outdoor-workouts": "Trails and boardwalks with an official page, hours and fees.",
   "farmers-markets-fresh-local-food": "Where to buy fresh, local food, side by side.",
   "free-low-cost-fitness-classes": "City passes, park loops and a weekly group run.",
@@ -21,6 +21,7 @@ export const TEASERS: Record<string, string> = {
   "healthy-places-to-eat": "Lighter menus, one source and one date each.",
 };
 
+export const entryId = (slug: string, e: Entry) => slug + ":" + e.name.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 export const isFree = (e: Entry) => /^(free|no fee|no day-use|no charge)/i.test(e.cost);
 export const outsidePSL = (e: Entry) => /outside port st\. lucie|fort pierce/i.test(e.why + " " + e.area);
 export const latestChecked = (l: List) => l.entries.map((e) => e.checked).sort().slice(-1)[0];
@@ -28,16 +29,17 @@ export const fmtDate = (iso: string) => new Date(iso + "T12:00:00").toLocaleDate
 export const mapsUrl = (e: Entry) => "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(e.area.replace(/\s*\(.*\)\s*$/, "") + (/port st\. lucie|fort pierce/i.test(e.area) ? "" : ", Port St. Lucie, FL"));
 export const salonLink = (e: Entry) => (e.source.startsWith("https://gsalonspapsl.com") ? SALON_URL : e.source);
 
-// "Right now in PSL": only dates seen on an official page (checked 2026-11-19).
+// "Right now in PSL": only dates seen on an official page (checked 2026-11-27).
 export const NOW = [
-  { date: "Thu Nov 26", title: "Turkey Trot at Tradition (9th annual)", where: "Tradition Town Hall, 8:00 a.m. 5K", href: "https://raceroster.com/events/2026/138972/turkey-trot-at-tradition" },
   { date: "Nov 27 to Dec 31", title: "PSLinLights walk-through (free)", where: "The Port District, dusk to 9 p.m.", href: "https://www.cityofpsl.com/PSLinLights" },
   { date: "Sat Dec 5", title: "Festival of Lights", where: "MIDFLORIDA Credit Union Event Center", href: "https://visitstlucie.com/event/festival-of-lights-2/" },
   { date: "Sat Dec 12", title: "Centennial Athletics December Dash 5K", where: "St. Lucie West Centennial High School, 8 a.m.", href: "https://runsignup.com/Race/FL/PortSaintLucie/CentennialAthleticsDecemberDash" },
 ];
-export const NOW_CHECKED = "2026-11-19";
+export const NOW_CHECKED = "2026-11-27";
 
 export const CHANGELOG = [
+  { date: "2026-11-27", text: "Weekly re-check. Nothing was removed: no listed event has passed (PSLinLights opens today, Nov 27). Re-opened the official pages for PSLinLights (free walk-throughs Nov 27 to Dec 31, dusk to 9 p.m.; Port District sensory-friendly lights Dec 3-4 from 5 p.m.; Winter Wonderland music off 5-6 p.m.), the Festival of Lights (Dec 5, 2-10 p.m., free admission, bring a new unwrapped toy), the December Dash (Dec 12, $40 / $20 no shirt or medal / $25 virtual; registration opens Dec 11), Oak Hammock Park (7 a.m. to sunset, no fee listed), Fleet Feet's community page (Monday group run 6:30-7:30 p.m.), the Fort Pierce Farmers Market (Saturdays 8 a.m.-1 p.m. Oct-May), the Tradition and Wednesday market guide and the Botanical Gardens (Tue-Sat 10-4, Sun noon-4); all matched and their checked date is now Nov 27, 2026. The City of Port St. Lucie, Savannas Preserve and Oxbow pages blocked our automated check for the other park and fitness entries (403), and Berry Forkin' Good's page still shows no full hours, so those keep their earlier dates." },
+  { date: "2026-11-26", text: "Weekly re-check. Removed the Turkey Trot at Tradition and the Pelican Yacht Club Turkey Trot (Fort Pierce) because their Nov 26 date has passed, and took the Turkey Trot out of Right now; the holiday list is now led by PSLinLights, the Festival of Lights and the December Dash. Re-opened the official pages for PSLinLights (free walk-throughs at The Port District and the Community Center, Nov 27 to Dec 31, dusk to 9 p.m.), Festival of Lights (Dec 5, 2-10 p.m.; the City's page says free admission and asks for a new, unwrapped toy for Toys for Tots), the December Dash (Dec 12, 8-10 a.m.; registration opens Dec 11) and the City Fitness Parks Pass (outdoor season Nov-Apr; still no outdoor class times); their checked date is now Nov 26, 2026. Correction: the Winter Wonderland sensory-friendly period is now listed as 5-6 p.m. with music off (we had 4:30-5:30 p.m.), with no dates given. Other entries were not re-opened this week and keep their earlier checked dates." },
   { date: "2026-11-19", text: "Weekly re-check. Removed the Port St. Lucie Green Market (Nov 15) from the Farmers markets and Holiday lists and from Right now: its Visit St. Lucie page says the event has passed and lists no next date. Re-opened the official pages for the Turkey Trot at Tradition (Nov 26, 8 a.m., $45 adults / $35 ages 18 and under; registration open, closes shortly before race day, no date given), Pelican Turkey Trot (7:45 a.m.; $45, price rises after Nov 22), PSLinLights, Festival of Lights, December Dash, City Fitness Parks Pass (outdoor classes Nov-Apr; schedule still not published), Fort Pierce Farmers Market, Sprouts, Just Salad and the Botanical Gardens; details matched and their checked date is now Nov 19, 2026. Changes: Festival of Lights now shows free admission per the City's PSLinLights page; PSLinLights notes the Winter Wonderland sensory-friendly hour (4:30-5:30 p.m.); the December Dash joins Right now. Fleet Feet's community page blocked our check (403) and the Berry Forkin' Good and Down to Earth Yoga pages still showed no hours or prices, so those keep their earlier dates." },
   { date: "2026-11-14", text: "Weekly re-check. Removed the Freedom Isn't Free Run 5K (Clover Park) because its Nov 14 date has arrived and passed. Added PSLinLights at The Port District: the city page now lists free walk-through dates, Nov 27 to Dec 31, dusk to 9 p.m. Corrected the Pelican Yacht Club Turkey Trot start time to 7:45 a.m. (we had 7:15; the race page now reads 7:45). Re-opened the official pages for the Turkey Trot at Tradition, the Pelican Turkey Trot, Festival of Lights, the December Dash, the Green Market, the Fort Pierce market, Sprouts, Fleet Feet and the City Fitness Parks Pass; dates, hours and prices otherwise matched and their checked date is now Nov 14, 2026. Berry Forkin' Good and Down to Earth Yoga pages did not show hours or prices to our check and keep their earlier dates." },
   { date: "2026-11-09", text: "Weekly re-check. Removed the 22nd Annual Muster 5K Beach Challenge (Fort Pierce) because its Nov 7 date has passed. Re-opened the official pages for the race and event entries, both Tradition and St. Lucie West 3Natives stores, Field of Greens, Just Salad, We Be Healthy, Sprouts, the Fort Pierce markets, Oak Hammock Park, the Botanical Gardens, Fleet Feet, Natural Spa and Sanctuary Spa; dates, hours and prices matched and their checked date is now Nov 9, 2026. One note added: the Freedom Isn't Free Run 5K page showed a Donate button but no sign-up button, so confirm registration with the organizers. The Savannas Preserve and Oxbow county and state pages blocked our check and keep their Nov 1 date." },
